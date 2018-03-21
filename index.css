@@ -1,0 +1,481 @@
+html body {
+	background-color: rgb(255, 254, 244);
+	font-family: 'Amatic SC', cursive;
+}
+
+#banner {
+	height: 150px;
+	background: linear-gradient(to top,rgb(48, 89, 34) 0%,rgb(54, 130, 28) 100%);
+	display:flex;		
+	align-items: center;
+}
+
+#banner-logo {
+    margin-left:auto;
+	margin-right:auto;
+}
+
+.rounded-corners {
+	border-radius: 10px;
+}
+
+.navbar {
+	width: 100%;
+	z-index: 16;
+}
+.nav-link {
+	font-size: 2rem;
+}
+
+.dropdown-item {
+	font-size: 1.75rem;
+	background-color: rgb(237, 227, 171);
+}
+
+.dropdown-menu {
+	border: none;
+	padding: 0 0;
+}
+
+.LockTop {
+	top: 0;
+	position: fixed;
+}
+
+.chronicles {
+	top: 80px;
+	position: fixed;
+	z-index: 50;
+}
+
+.navbar-brand {
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bg-light {
+	background-color: rgb(237, 227, 171) !important;
+}
+
+#chronicles {
+	position: absolute;
+	width: 196.19px;
+	overflow: auto;
+	background-color: rgb(237, 227, 171);
+	margin-left: -200px;
+	transition: margin-left .5s;
+	z-index: 50;
+}
+
+#chronicle-header {
+	margin-bottom: 5px;
+}
+
+.chronicles-list {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	font-size: 1.5rem;
+	text-decoration: none;
+	list-style: none;
+}
+
+.chronicle-list-li::before {
+	content: "•"; 
+	color: rgb(54, 130, 28);
+  	display: inline-block; 
+ 	width: .5em;
+  	margin-left: -1em;
+}
+
+.chronicle-link {
+	color: rgba(0,0,0,.7);
+	transition: font-size 0.3s;
+}
+
+.chronicle-link:hover {
+	text-decoration: none;
+	color: rgb(54, 130, 28);
+	font-size: 1.525rem;
+}
+
+.brunch-chronicle {
+
+}
+
+.dinner-chronicle {
+
+}
+
+.sweets-chronicle {
+
+}
+
+.ferments-chronicle {
+
+}
+
+.wp-chronicle {
+
+}
+
+.fas {
+	font-size: 1.75rem;
+	color: rgb(54, 130, 28);
+	margin-left: 0;
+	transition: margin-left .5s;
+	z-index: 50;
+}
+
+.fas:hover {
+	color: rgba(0,0,0,.7);
+}
+
+#carouselExampleIndicators {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 676.5px;
+	max-height: 370px;
+}
+
+.carousel-inner {
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align: middle;
+	max-width: 674px;
+	max-height: 379.13px;
+}
+
+.carousel-indicators {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+	vertical-align: middle;
+	width: 674px;
+	height: 352.8px;
+	display: block;
+	bottom: 0;
+	top: 25px;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100px;
+	margin-left: 4%;
+	margin-bottom: 3%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	z-index: 15;
+	width: 5%;
+	top: 85%;
+}
+
+.carousel-control-next {
+	right: 2%;
+}
+
+.carousel-control-prev {
+	left: 88%;
+}
+
+.jumbotron {
+	margin-top: 20px;
+	max-width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(255, 254, 244);
+	padding: 2rem 2rem;
+}
+
+.display-3 {
+	margin-top: 40px;
+}
+
+.lead {
+	font-size: 1.75rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+}
+
+.my-4 {
+	font-size: .2rem!important;
+	margin-top: 0.5rem!important;
+	border-bottom: 1px solid rgb(49, 109, 69);
+	box-shadow: 0 20px 20px -20px rgb(57, 76, 56);
+}
+
+#heading1 {
+	float: left;
+}
+
+#heading3 {
+	float: right;
+}
+
+h1 {
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 80px;
+}
+
+h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#homepagebackground {
+    margin-bottom: 100px; 
+}
+
+.image-wrap {
+    background-image: url("homepagebackground.jpeg");
+    position: relative;
+    height: 1348px;
+	border-radius: 30px;
+	max-width: 1011px;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+.image-wrap:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 254, 244,.85);
+    border-radius: 30px;
+}
+
+.image-wrap-top {
+    background-image: url("homepagebackground.jpeg");
+    position: absolute;
+    height: 1348px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    left: 0;
+    width: 1011px;
+    max-width: 1011px;
+    opacity: 0;
+
+}
+
+#homepagetext {
+    color: #000;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.home-page-paragraph {
+	font-size: 2rem;
+}
+
+#home-page-signature {
+	text-align: right;
+	padding-right: 20%;
+}
+
+#calendar-activator-div {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.activator-off {
+	margin-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: 50px;
+	font-size: 2rem;
+	border: none;
+	background-color: rgb(237, 227, 171);
+	color: rgb(49, 109, 69);
+	border-radius: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: background-color 0.2s,
+				color 0.2s;
+}
+
+.activator-off:hover {
+	background-color: rgb(49, 109, 69);
+	color: rgb(237, 227, 171);
+}
+
+.activator-on {
+	margin-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: 50px;
+	font-size: 2rem;
+	border: none;
+	background-color: rgb(49, 109, 69);
+	color: rgb(237, 227, 171);
+	border-radius: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#weekly-meal-planner-container {
+	overflow: auto;
+	display: none;
+}
+
+#weekly-meal-planner-table {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2rem;
+	min-width: 1301px;
+}
+
+#weekly-meal-planner-caption {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.weekly-meal-planner-column-header {
+	text-align: center;
+	/*border-left: 1px solid rgba(0,0,0,.1);
+	border-right: 1px solid rgba(0,0,0,.1);*/
+	width: 150px;
+}
+
+.first-meal-planner-column-header, .last-meal-planner-column-header {
+	border-left: none;
+	border-right: none;
+}
+
+.weekly-meal-planner-row-header {
+	text-align: right;
+	padding-right: 15px;
+	vertical-align: bottom;
+	/*border-bottom: 1px solid rgba(0,0,0,.1);*/
+	width: 110px;
+}
+
+.weekly-meal-planner-data-cell {
+	border: 1px solid rgba(0,0,0,.1);
+	height: 150px;
+	min-width: 238px;
+	text-align: center;
+}
+
+.image-selector-image-cell {
+	text-align: center;
+}
+
+.active-indicator-button-cell {
+	text-align: center;
+}
+
+#active-cell-indicator-switch-div {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.active-cell-indicator-switch-button-on {
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.5rem;
+	border: none;
+	background-color: rgb(49, 109, 69);
+	color: rgb(237, 227, 171);
+	border-radius: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.active-cell-indicator-switch-button-off {
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.5rem;
+	border: none;
+	background-color: rgb(237, 227, 171);
+	color: rgb(49, 109, 69);
+	border-radius: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.brunchSelector option:checked,
+.brunchSelector option:hover {
+    box-shadow: 0 0 10px 100px #000 inset;
+}
+
+.brunchSelector:focus option:checked { 
+    background: rgb(49, 109, 69) !important;
+    color:rgb(237, 227, 171);
+}
+
+.dinnerSelector option:checked,
+.dinnerSelector option:hover {
+    box-shadow: 0 0 10px 100px #000 inset;
+}
+
+.dinnerSelector:focus option:checked { 
+    background: rgb(49, 109, 69) !important;
+    color:rgb(237, 227, 171);
+}
+
+.sweetsSelector option:checked,
+.sweetsSelector option:hover {
+    box-shadow: 0 0 10px 100px #000 inset;
+}
+
+.sweetsSelector:focus option:checked { 
+    background: rgb(49, 109, 69) !important;
+    color:rgb(237, 227, 171);
+}
+
+.fermentsSelector option:checked,
+.fermentsSelector option:hover {
+    box-shadow: 0 0 10px 100px #000 inset;
+}
+
+.fermentsSelector:focus option:checked { 
+    background: rgb(49, 109, 69) !important;
+    color:rgb(237, 227, 171);
+}
+
+#footer {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#footerHR {
+	border:none;
+	height: 50px;
+	margin-bottom: 0;
+	border-bottom: 1px solid rgb(49, 109, 69);
+	box-shadow: 0 20px 20px -20px rgb(57, 76, 56);
+    margin: -50px auto 0px;
+}
+
+#footer a {
+	float: right;
+	margin-top: 5px;
+	margin-right: 100px;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: rgb(49, 109, 69);
+	margin-bottom: 50px;
+}
+
+#footer a:hover {
+	color: rgb(237, 227, 171);
+	background-color: rgb(49, 109, 69);
+	border-radius: 5px;
+}
