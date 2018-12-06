@@ -5,3 +5,5 @@ Sample code from personal website (see link above).
 Javascript app "Weekly Meal Planner" uses local storage to store user input between page navigation and sessions for app functionality.
 
 (Uses bootstrap and fontawesome.)
+
+http://web.engr.oregonstate.edu/~fridkisb/FinalProject-BenjaminFridkis-CS290/
