@@ -1,9 +1,9 @@
 # Mamma-Jays-Hungry-Babes
 Personal Website Exhibiting Culinary Talents
 
-Sample code from personal website (see link above).
+Sample code from personal website (see link below).
 Javascript app "Weekly Meal Planner" uses local storage to store user input between page navigation and sessions for app functionality.
 
 (Uses bootstrap and fontawesome.)
 
-http://web.engr.oregonstate.edu/~fridkisb/FinalProject-BenjaminFridkis-CS290/
+http://mammajayshungrybabes.herokuapp.com/
